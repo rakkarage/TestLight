@@ -1,0 +1,9 @@
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://cl0s57lk4aj3"]
+
+[ext_resource type="Texture2D" uid="uid://1iedodhs5og1" path="res://Light.png" id="1_24p6v"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_oxthm"]
+texture = ExtResource( "1_24p6v" )
+
+[resource]
+sources/1 = SubResource( "TileSetAtlasSource_oxthm" )
